@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+	<meta charset="UTF-8">
 	<meta name="description" content="Portfolio de Nina Carducci Photographe professionnelle à Bordeaux. Shooting photo, retouches et albums pour concerts, mariages, portraits et entreprises.">
 
 	<!-- Open Graph (Facebook, LinkedIn, WhatsApp, Instagram...) -->
@@ -22,7 +23,7 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
-	<meta charset="UTF-8">
+
 	<script src="./assets/bootstrap/bootstrap.bundle.js"></script>
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 	<script src="./assets/maugallery.js"></script>
@@ -89,15 +90,15 @@
 			<h2 class="title">Portfolio</h2>
 			<div class="container py-3">
 				<div class="gallery" style="display: none">
-					<img loading="lazy" data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash.webp" alt="Aaron Paul concert"/>
-					<img loading="lazy" data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash.webp" alt="Ali Morshedlou entreprise"/>
-					<img loading="lazy" data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash.webp" alt="Jason Goodman entreprise"/>
-					<img loading="lazy" data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash.webp" alt="Hannah Busing mariage"/>
-					<img loading="lazy" data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash.webp" alt="Ade-Tunji portrait"/>
-					<img loading="lazy" data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash.webp" alt="Jakob Owens mariage"/>
-					<img loading="lazy" data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash.webp" alt="Nino Van Prattenburg portrait"/>
-					<img loading="lazy" data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash.webp" alt="Austin Neill cocert"/>
-					<img loading="lazy" data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash.webp" alt="Mateus Campos Felipe entreprise"/>
+					<img loading="lazy" data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash.webp" alt="Aaron Paul concert">
+					<img loading="lazy" data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash.webp" alt="Ali Morshedlou entreprise">
+					<img loading="lazy" data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash.webp" alt="Jason Goodman entreprise">
+					<img loading="lazy" data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash.webp" alt="Hannah Busing mariage">
+					<img loading="lazy" data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash.webp" alt="Ade-Tunji portrait">
+					<img loading="lazy" data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash.webp" alt="Jakob Owens mariage">
+					<img loading="lazy" data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash.webp" alt="Nino Van Prattenburg portrait">
+					<img loading="lazy" data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash.webp" alt="Austin Neill cocert">
+					<img loading="lazy" data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash.webp" alt="Mateus Campos Felipe entreprise">
 				</div>
 			</div>
 			<div class="quote">
@@ -167,25 +168,25 @@
 						<input type="email" name="email" id="email">
 						<label for="message">Message</label>
 						<textarea name="message" id="message" cols="30" rows="10"></textarea>
-						<input type="submit" value="Envoyer"/>
+						<input type="submit" value="Envoyer">
 					</form>
 				</div>
 				<div class="picture right">
 					<img loading="lazy" src="./assets/images/camera.webp" alt="photo d'appareil photo pour le footer">
+					<div itemscope itemtype="https://schema.org/ProfessionalService">
+						<span itemprop="name">Nina Carducci Photographe</span>
+						<div itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+							<span itemprop="streetAddress">68 avenue Alsace-Lorraine</span>
+							<span itemprop="addressLocality">Bordeaux</span>
+							<span itemprop="postalCode">33200</span>
+							<span itemprop="addressCountry">FR</span>
+						</div>
+						<span itemprop="telephone">+33556677889</span>
+						<meta itemprop="openingHours" content="Mo,Tu,We,Th,Fr 10:00-19:00">
+					</div>
 				</div>
 			</div>
 		</div>
-			<div itemscope itemtype="https://schema.org/ProfessionalService">
-				<span itemprop="name">Nina Carducci Photographe</span>
-				<div itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
-					<span itemprop="streetAddress">68 avenue Alsace-Lorraine</span>
-					<span itemprop="addressLocality">Bordeaux</span>
-					<span itemprop="postalCode">33200</span>
-					<span itemprop="addressCountry">FR</span>
-				</div>
-				<span itemprop="telephone">+33556677889</span>
-				<meta itemprop="openingHours" content="Mo,Tu,We,Th,Fr 10:00-19:00">
-			</div>
 	</footer>
 </body>
 </html>
